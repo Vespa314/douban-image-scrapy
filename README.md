@@ -37,8 +37,6 @@ scrapy crawl GetUrlSpider
 但是如果下载图片数量较多，强烈建议不要使用迅雷，因为很容易出现获取被拒，然后下载失败的情况。
 
 ####3.下载图片
-首先确保在`...\douban-image-scrapy\DownloadImage`目录下有名为Image的目录。
-
 ```
 cd ../DownloadImage
 scrapy crawl DownloadImage
@@ -48,8 +46,4 @@ scrapy crawl DownloadImage
 ###后期改进：
 有空的话。。。
 * 自动检测电影相册页数，只要输入id即可
-* 如果没有Image目录，自动创建。
 * 图片按电影分好类
-
-
-
