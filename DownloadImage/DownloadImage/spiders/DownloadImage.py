@@ -34,3 +34,4 @@ class GetUrlSpider(BaseSpider):
         print '----------------Image Get----------------',self.counter,str[-1],'jpg'
         imgfile = open('./Image/'+str[-1]+"jpg",'wb')
         imgfile.write(response.body)
+        imgfile.close()
